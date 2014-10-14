@@ -1,0 +1,8 @@
+<br>
+
+
+<%= image_tag @paperclip_image.asset.url(:thumb), class: "th" %>
+
+<br>
+<%= link_to 'Edit', edit_paperclip_image_path(@paperclip_image) %> |
+<%= link_to 'Back', paperclip_images_path %>
